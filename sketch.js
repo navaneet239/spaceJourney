@@ -68,7 +68,7 @@ function draw() {
   
   text("Score: " + score, width/2 + 100, 30, fill("white"),textSize(20));
 
-  text("your oxygen bhoosting level = " + packItem, 100, 30, fill("white"),textSize(20))
+  text("your oxygen boosting level = " + packItem, 100, 30, fill("white"),textSize(20))
 
 
   if (gameState === SET) {
